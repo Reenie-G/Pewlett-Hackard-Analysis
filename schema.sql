@@ -40,4 +40,17 @@ CREATE TABLE salaries (
 );
 
 --dept_emp
-CREATE TABLE dept_emp
+CREATE TABLE dept_emp (
+	emp_no int NOT NULL,
+	dept_no varchar (4) NOT NULL,
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL
+);
+
+-- salaries table
+CREATE TABLE salaries (
+	emp_no int NOT NULL,
+	salary int NOT NULL,
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL
+);
