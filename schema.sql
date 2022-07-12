@@ -1,12 +1,3 @@
- -- Creating tables for PH-EmployeeDB
-
-CREATE TABLE departments (
-     dept_no VARCHAR(4) NOT NULL,
-     dept_name VARCHAR(40) NOT NULL,
-     PRIMARY KEY (dept_no),
-     UNIQUE (dept_name)
-);
-
 -- Creating an Employees table
 CREATE TABLE employees(
 	 emp_no INT NOT NULL,
@@ -47,10 +38,13 @@ CREATE TABLE dept_emp (
 	to_date DATE NOT NULL
 );
 
--- salaries table
-CREATE TABLE salaries (
+--titles table
+CREATE TABLE titles (
 	emp_no int NOT NULL,
-	salary int NOT NULL,
-	from_date DATE NOT NULL,
-	to_date DATE NOT NULL
+	title varchar NOT NULL,
+	from_date date NOT NULL,
+	to_date date NOT Null
+FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (emp_no)
+);
 );
