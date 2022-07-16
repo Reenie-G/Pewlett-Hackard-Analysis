@@ -1,5 +1,5 @@
 # **Overview**
-	The purpose of this analysis is to determine the number of retiring employees and identify employees that are eligible to participate in a mentorship program. This will help Pewlett-Hackard prepare for the open positions that will be available as employees retire and to mentor new employees as they replace those that have retired. 
+The purpose of this analysis is to determine the number of retiring employees and identify employees that are eligible to participate in a mentorship program. This will help Pewlett-Hackard prepare for the open positions that will be available as employees retire and to mentor new employees as they replace those that have retired. 
 
 # **Results**
 
