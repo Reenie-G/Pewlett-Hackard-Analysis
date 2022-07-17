@@ -43,6 +43,7 @@ To get an understanding of where Hewlett Packard compares with current market pa
 ![titles_salary_query](Images/titles_salary_query.png)
 
 ![titles_salary1](Images/titles_salary1.png)
+
 ![titles_salary2](Images/titles_salary2.png)
 
 
