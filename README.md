@@ -32,7 +32,6 @@ The purpose of this analysis is to determine the number of retiring employees an
 	
 # **Further Analysis**
 
-<<<<<<< HEAD
 To get a further breakdown of how many employees are eligible for the mentorship program a query of the number of employees can be done by department and getting a count of the titles and then grouping them by title and place them in descending order. A table is then created to hold this information. This allows for the manager of each department to see how many employees are eligible for the mentorship program. 
 
 ![mentorship_query](Images/mentorship_query.png)
@@ -44,14 +43,8 @@ To get an understanding of where Hewlett Packard compares with current market pa
 ![titles_salary_query](Images/titles_salary_query.png)
 
 ![titles_salary1](Images/titles_salary1.png)
-![titles_salary2](Images/titles_salary2.png)
-=======
-To get a further breakdown of how many employees are eligible for the mentorship program a query of the number of employees can be done by department and getting a count of the titles and then grouping them by title and place them in descending order. A table is then created to hold this information. 
 
-![mentorship_query](Images/mentorship_query.png)
 
-![mentorship_count](Images/mentorship_count.png)	
->>>>>>> fcb1c16812ea624c21069cd4a9cba6a85831e48d
 
 
  
